@@ -117,7 +117,7 @@ fetch(
         <h4> Цех №1 Участок №1 (Погонаж) ${week} к.н.</h4>
         <p>Плановый объем <b>${lastRow.quantityM} м.п.</b> ${lastRow.quantity} шт. на фрезеровку <b>${qMilling.toFixed(1)} м.п.</b> на облицовку <b>${qFacing.toFixed(1)} м.п.</b> </p>
         <p style="background:#d9d9d9">в том числе <b>${qLastWeek.toFixed(1)} м.п.</b> на фрезеровку <b>${qLastMilling.toFixed(1)} м.п. </b> на облицовку <b>${qLastFacing.toFixed(1)} м.п.</b> с прошлой недели.</p>
-        <p>Количнство настроек фрезера <b>${qMillingSetup}</b>, количество настроек барберана <b>${qMillingSetup}</b>.</p>
+        <p>Количнство настроек фрезера <b>${qMillingSetup}</b>, количество настроек барберана <b>${qFacingSetup}</b>.</p>
         <p style="background:#c9daf8">Плановое время раскроя <b>HOLZMA OPT HPP 350 = ${lastRow.cuttingT} ч.</b> (СДОС 3р. + 2р.)</p>
         <p style="background:#93c47d">Плановое время настройки <b>SMC Superset XL = ${scmSetup} ч.</b> (СДОС 4р.)</p>
         <p style="background:#d9ead3">Плановое время работы <b>SCM Superset XL = ${scm.toFixed(1)} ч.</b> (СДОС 3р. + 2р.)</p>
