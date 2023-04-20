@@ -2,6 +2,7 @@
     width: 962px;
     margin: 0 auto;
     font-size: 11pt;
+    padding: 10px;
 }
 
 h4 {
@@ -12,6 +13,22 @@ h4 {
 
 p {
     padding-inline-start: 12px;
+}
+
+.bluetext {
+    background: #c9daf8;
+}
+
+.greentext {
+    background: #93c47d
+}
+
+.yellowtext {
+    background: #ffd966
+}
+
+.redtext {
+    background: #e6b8af
 }
 
 .gant {
