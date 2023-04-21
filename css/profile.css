@@ -39,7 +39,7 @@ p {
 
 canvas {
     border: 1px solid #1c4587;
-    background-image: url("/img/gantprofile.png");
+    background-image: url("../img/gantprofile.png");
 }
 
 table {
