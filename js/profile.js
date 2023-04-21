@@ -1,4 +1,4 @@
-const WIDTH = 962, HEIGHT = 300;
+const WIDTH = 962, HEIGHT = 333;
 let scmSetup = 0, scm = 0, weinigSetup = 0, weinig = 0, prSetup = 0, pr = 0, purSetup = 0, pur = 0;
 let qMillingSetup = 0, qFacingSetup = 0, qMilling = 0, qFacing = 0, qLastMilling = 0, qLastFacing = 0;
 let planScm = 0, planWeinig = 0, planPr = 0, planPur = 0, planOdm4r = 0, planOdm3r = 0, plan4r = 0, plan3r = 0, plan2r = 0, planAll = 0;

@@ -2,7 +2,7 @@
     width: 962px;
     margin: 0 auto;
     font-size: 11pt;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 h4 {
@@ -20,25 +20,26 @@ p {
 }
 
 .greentext {
-    background: #93c47d
+    background: #93c47d;
 }
 
 .yellowtext {
-    background: #ffd966
+    background: #ffd966;
 }
 
 .redtext {
-    background: #e6b8af
+    background: #e6b8af;
 }
 
 .gant {
     width: 962px;
-    height: 300px;
+    height: 333px;
     margin: 0 auto;
 }
 
 canvas {
     border: 1px solid #1c4587;
+    background-image: url("/img/gantprofile.png");
 }
 
 table {
