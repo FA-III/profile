@@ -59,7 +59,7 @@ fetch(
              <td>${row.color}</td> 
              <td>${row.quantity}</td> 
              <td>${row.height}</td>
-             <td>${+row.width + 2}</td>  
+             <td>${+row.width + 3}</td>  
              <td>${row.stripInSheet}</td> 
              <td>${row.sheets}</td>
              <td>${row.cuttingT}</td>
