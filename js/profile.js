@@ -22,7 +22,8 @@ HEAD.innerHTML = `<th>Неделя</th>
 <th>Цвет</th> 
 <th>Количество</th> 
 <th>Толщина МДФ</th> 
-<th>Ширина полос</th> 
+<th>Ширина полос</th>
+<th>Полос с листа</th> 
 <th>Кол-во листов</th> 
 <th>Время Раскроя</th>  
 <th>Фрезер. станок</th>
@@ -57,7 +58,8 @@ fetch(
              <td>${row.length}</td>
              <td>${row.color}</td> 
              <td>${row.quantity}</td> 
-             <td>${row.height}</td> 
+             <td>${row.height}</td>
+             <td>${+row.width + 2}</td>  
              <td>${row.stripInSheet}</td> 
              <td>${row.sheets}</td>
              <td>${row.cuttingT}</td>
