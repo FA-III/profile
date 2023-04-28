@@ -1,4 +1,4 @@
-const WIDTH = 962, HEIGHT = 250;
+const WIDTH = 962, HEIGHT = 500;
 let scmSetup = 0, scm = 0, weinigSetup = 0, weinig = 0, prSetup = 0, pr = 0, purSetup = 0, pur = 0;
 let qMillingSetup = 0, qFacingSetup = 0, qMilling = 0, qFacing = 0, qLastMilling = 0, qLastFacing = 0;
 let planScm = 0, planWeinig = 0, planPr = 0, planPur = 0, planOdm4r = 0, planOdm3r = 0, plan4r = 0, plan3r = 0, plan2r = 0, planAll = 0;
@@ -110,10 +110,10 @@ fetch(
         planPur = (pur + purSetup).toFixed(1);
         plan4r = scmSetup + weinigSetup;
         planOdm4r = prSetup + purSetup;
-        planOdm3r = pr + pur;
-        plan3r = (scm + weinig + +lastRow.cuttingT + +lastRow.cladCutT + prSetup + pr + purSetup + pur + +lastRow.packingT + +lastRow.pacBoxT).toFixed(1);
-        plan2r = (scm + weinig + +lastRow.cuttingT + pr + pur + +lastRow.packingT + +lastRow.pacBoxT).toFixed(1);
-        planAll = (plan4r + +plan3r + +plan2r + planOdm4r * 2 + planOdm3r).toFixed(1);
+        planOdm3r = (pr + pur).toFixed(1);
+        plan3r = (scm + weinig + +lastRow.cuttingT + +lastRow.cladCutT + prSetup + pr + purSetup + pur + +lastRow.packingT + +lastRow.pacBoxT * 2).toFixed(1);
+        plan2r = (scm + weinig + +lastRow.cuttingT + pr + pur + +lastRow.packingT).toFixed(1);
+        planAll = (plan4r + +plan3r + +plan2r + planOdm4r * 2 + +planOdm3r).toFixed(1);
 
         document.querySelector('#plantxt').innerHTML = `
         <h4> Цех №1 Участок №1 (Погонаж) ${week} к.н.</h4>

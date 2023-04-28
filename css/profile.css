@@ -33,14 +33,14 @@ p {
 
 .gant {
     width: 962px;
-    height: 250px;
+    height: 500px;
     margin: 0 auto;
 }
 
 canvas {
     border: 1px solid #1c4587;
     background-image: url("../img/gantprofile.svg");
-    background-size: 962px 250PX;
+    background-size: 962px 500PX;
 }
 
 table {
