@@ -136,7 +136,7 @@ fetch(
         <p style="background:#d9ead3">Итого плановая загрузка <b>WEINIG Powermat 1200 = ${planWeinig} ч.</b></p>
         <p style="background:#ffd966">Итого плановая загрузка <b>Barberan PR - 30 = ${planPr} ч.</b></p>
         <p style="background:#fef1cb">Итого плановая загрузка <b>Barberan PUR - 33L = ${planPur} ч.</b></p>
-        <p>Итого плановые трудозатраты СДОС-4р. - <b>${plan4r} ч.,</b> 3р. - <b>${plan3r} ч.,</b> 2р. - <b>${plan2r} ч.,</b> ОДМ-4р.+3р. - <b>${planOdm4r} ч.,</b> 3р. - <b>${planOdm3r} ч.,</b> Итого: <b>${planAll} ч.,</b></p>
+        <p>Итого плановые трудозатраты СДОС-4р. - <b>${plan4r} ч.,</b> 3р. - <b>${plan3r} ч.,</b> 2р. - <b>${plan2r} ч.,</b> ОДМ-4р. - <b>${planOdm4r} ч.,</b> 3р. - <b>${planOdm3r} ч.,</b> Итого: <b>${planAll} ч.,</b></p>
         <p><span class="bluetext">Раскрой</span> <span class="greentext">Фрезеровка</span> <span class="yellowtext">Облицовка</span> <span class="redtext">Упаковка</span></p>`;
 
     });
